@@ -18,6 +18,7 @@ header {
     float: left;
     padding-top: 4.0em;
     margin-right: 20px;
+    margin-bottom: calc(50vh); 
 }
 
 section {
@@ -74,4 +75,8 @@ a:hover {
     padding:5px 0;
     margin:0 0 5px;
   }
+}
+
+#publication-list {
+    list-style-type: decimal;
 }
